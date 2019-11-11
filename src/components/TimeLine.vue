@@ -5,7 +5,7 @@
 <template>
   <div class="time">
     <div class="text-content">
-      <h2 class="text-center">Vue时间轴demo</h2>
+      <h2 class="text-center">时间轴demo</h2>
       <div class="time-line">
         <div v-for="item in testList" class="time-line-div" :key="item.key">
           <p>{{item.time}}</p>
